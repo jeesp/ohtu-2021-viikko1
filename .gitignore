@@ -1,3 +1,5 @@
 *.tmp
 /__pycache__
 .pytest_cache
+src/__pycache__
+src/tests/__pycache__
