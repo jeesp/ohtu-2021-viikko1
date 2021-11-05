@@ -16,7 +16,7 @@ class TestVarasto(unittest.TestCase):
         self.assertEqual(self.varasto1.saldo, 10)
 
         self.varasto2 = Varasto(-1)
-        self.assertEqual(self.varasto2.tilavuus, 0)
+        self.assertEqual(self.varasto2.tilavuus, 20)
 
 
     def test_lisaa_varastoon(self):
