@@ -5,7 +5,7 @@ from varasto import Varasto
 class TestVarasto(unittest.TestCase):
     def setUp(self):
         self.varasto = Varasto(10)
-        
+    # muutos
     def test_setup(self):
         self.varasto1 = Varasto(10,-1)
         self.assertEqual(self.varasto1.tilavuus, 10)
